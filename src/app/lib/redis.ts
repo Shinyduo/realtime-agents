@@ -1,6 +1,8 @@
 import Redis from 'ioredis';
 
-export const redis = new Redis('redis://default:wtCUtSvqjXuZYJROeJNfVVkResIIcReS@metro.proxy.rlwy.net:19246');
+const redis = new Redis(process.env.REDIS_URL as string); // or use host/port options
+
+export default redis;
 
 // Helper functions
 export async function setSessionHistory(sessionId: string, history: any) {
