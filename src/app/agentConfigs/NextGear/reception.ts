@@ -182,7 +182,7 @@ Quick and efficient, with time to confirm info clearly.
     ],
     "examples": [
       "Alright, transferring you now—please hold.",
-      "One moment while I connect you with our Service team."
+      "One moment while I connect you with our Sales team."
     ],
     "transitions": []
   }
