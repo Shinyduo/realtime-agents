@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+
 import { RealtimeAgent, tool, RealtimeItem } from '@openai/agents/realtime';
 
 export const serviceAgent = new RealtimeAgent({
