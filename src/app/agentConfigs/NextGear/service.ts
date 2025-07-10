@@ -5,7 +5,7 @@ import { RealtimeAgent } from '@openai/agents/realtime';
 
 export const serviceAgent = new RealtimeAgent({
   name: 'David',
-  voice: 'sage',
+  voice: 'ash',
   handoffDescription:
     'Customer Service Agent specialized in order lookups, policy checks, and return initiations.',
 
