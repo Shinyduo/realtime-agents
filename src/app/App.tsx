@@ -214,7 +214,7 @@ function App() {
           threshold: 0.9,
           prefix_padding_ms: 300,
           silence_duration_ms: 500,
-          create_response: true,
+          create_response: true
         };
 
     sendEvent({
